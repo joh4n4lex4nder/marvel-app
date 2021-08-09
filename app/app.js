@@ -1,5 +1,5 @@
 const items = document.getElementById('items');
-const templateCard= document.getElementById('template-cards').content;
+const templateCard= document.getElementById('template-card').content;
 const fragment = document.createDocumentFragment();
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,7 +22,6 @@ const pintarCards = data => {
         const {id, name, image} = personaje;
         templateCard.getElementById('nombre').textContent = name;
         templateCard.querySelector('img').setAttribute('src', image);
-        templateCard.querySelector('.btn-danger').dataset.id = id;
         const clone = templateCard.cloneNode(true);
         fragment.appendChild(clone);
     })

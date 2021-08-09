@@ -2,41 +2,41 @@
     {
         "id": 1,
         "name": "Tony stark",
-        "image": "./image/Tony"
+        "image": "./image/Tony.jpg"
     },
     {
         "id": 2,
         "name": "Hulk",
-        "image": "./image/Hull"
+        "image": "./image/Hull.jpg"
     },
     {
         "id": 3,
         "name": "Peter",
-        "image": "./image/Hombre"
+        "image": "./image/Hombre.jpg"
     },
     {
         "id": 4,
         "name": "Thor",
-        "image": "./image/Tor"
+        "image": "./image/Tor.jpg"
     },
     {
         "id": 5,
         "name": "Hela",
-        "image": "./image/Hermana"
+        "image": "./image/Hermana.jpg"
     },
     {
         "id": 6,
         "name": "Viuda Negra",
-        "image": "./image/Viuda"
+        "image": "./image/Viuda.jpg"
     },
     {
         "id": 7,
         "name": "Pantera Negra",
-        "image": "./image/panter"
+        "image": "./image/panter.jpg"
     },
     {
         "id": 8,
         "name": "Steve Rogers",
-        "image": "./image/Capi"
+        "image": "./image/Capi.jpg"
     }  
 ]
