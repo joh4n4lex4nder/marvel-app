@@ -1,4 +1,6 @@
-
+const items = document.getElementById('items');
+const templateCard= document.getElementById('template-cards').content;
+const fragment = document.createDocumentFragment();
 
 document.addEventListener('DOMContentLoaded', () => {
     recogerDates();
@@ -16,5 +18,14 @@ const recogerDates = async () => {
 }
 
 const pintarCards = data => {
+    data.forEach(personaje => {
+        const {id, name, image} = personaje;
+        templateCard.getElementById('nombre').textContent = name;
+        templateCard.querySelector('img').setAttribute('src', image);
+        templateCard.querySelector('.btn-danger').dataset.id = id;
+        const clone = templateCard.cloneNode(true);
+        fragment.appendChild(clone);
+    })
+    items.appendChild(fragment);
 
 }
