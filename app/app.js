@@ -26,5 +26,5 @@ const pintarCards = data => {
         fragment.appendChild(clone);
     })
     items.appendChild(fragment);
-
 }
+
