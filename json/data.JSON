@@ -1,1 +1,42 @@
-[{}]
+[
+    {
+        "id": 1,
+        "name": "Tony stark",
+        "image": "./image/Tony"
+    },
+    {
+        "id": 2,
+        "name": "Hulk",
+        "image": "./image/Hull"
+    },
+    {
+        "id": 3,
+        "name": "Peter",
+        "image": "./image/Hombre"
+    },
+    {
+        "id": 4,
+        "name": "Thor",
+        "image": "./image/Tor"
+    },
+    {
+        "id": 5,
+        "name": "Hela",
+        "image": "./image/Hermana"
+    },
+    {
+        "id": 6,
+        "name": "Viuda Negra",
+        "image": "./image/Viuda"
+    },
+    {
+        "id": 7,
+        "name": "Pantera Negra",
+        "image": "./image/panter"
+    },
+    {
+        "id": 8,
+        "name": "Steve Rogers",
+        "image": "./image/Capi"
+    }  
+]

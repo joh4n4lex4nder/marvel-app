@@ -1,2 +1,2 @@
-### Explicacion
+### Explicación
 
