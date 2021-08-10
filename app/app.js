@@ -62,7 +62,7 @@ const setLikes = objeto => {
 const setLikes2 = objeto2 => {
     const botonD = {
         id: objeto2.querySelector('.btn-danger').dataset.id,
-        cantidadD: 1
+        cantidadD: 0
     }
     
     if(dislike.hasOwnProperty(botonD.id)){
